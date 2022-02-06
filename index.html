@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convention Hall</title>
+    <!-- Bootstrap css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- fontawose cnd  -->
+    <script src="https://kit.fontawesome.com/3e66c572ef.js" crossorigin="anonymous"></script>
+    <!-- ico link  -->
+    <link  rel="shortcut icon"  href="icons/Icons8-Ios7-City-City-Hall.ico" type="image/x-icon">
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="mb-4" >
+      <!-- navbar  -->
+        <nav  class="navbar navbar-expand-lg m-auto navbar-light sticky-top">
+            <div class="container">
+              <a class="navbar-brand fs-3 text-danger" href="#">La Meridiana</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 fw-bold">
+                  <li class="nav-items mx-3">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link" href="#">Product</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                  
+                </ul>
+                
+              </div>
+              
+            </div>
+          </nav>
+          <!-- navbar  -->
+          <!-- slider  section  -->
+           <section >
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner ">
+                <div class="carousel-item active ">
+                  <div class="images">
+                    <img src="images/banner-1.jpg" class=" d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-caption d-md-block">
+                    <h1 class=" slider-heading display-4 ">The perfect venue for your
+                      next event</h1>
+                    <p class="slider-details">Some representative placeholder content for the first slide.</p>
+                    <a href="https://github.com/ShakawathHossen"><button class="px-4 py-2 rounded-pill fw-bold text-uppercase border-0 text-light slider-btn">Appointment <i class="mx-2 far fa-calendar-check"></i></button></a>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="images">
+                    <img src="images/banner-2.jpg" class="img-fluid d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-caption  d-md-block">
+                    <h1 class="slider-heading display-4">The perfect venue for your
+                      next event</h1>
+                    <p class="slider-details">Some representative placeholder content for the first slide.</p>
+                    <a href="https://github.com/ShakawathHossen"><button class="px-4 py-2 rounded-pill fw-bold text-uppercase border-0 text-light slider-btn">Appointment <i class="mx-2 far fa-calendar-check"></i></button></a>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="images">
+                    <img src="images/banner-3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-caption  d-md-block">
+                    <h1 class=" slider-heading display-4 ">The perfect venue for your
+                      next event</h1>
+                    <p class="slider-details">Some representative placeholder content for the first slide.</p>
+                    <a href="https://github.com/ShakawathHossen"><button class="px-4 py-2  rounded-pill fw-bold text-uppercase border-0 text-light slider-btn">Appointment <i class="mx-2 far fa-calendar-check"></i></button></a>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+          </section>
+          <!-- slider  section  -->
+    </header>
+    <main>
+        <!-- toast  -->
+        <div class="toast fade show toa"id="myToast">
+        <div class="toast-header bg-danger text-white">
+          <div>
+            <i class="fas fa-gift"></i>
+          </div>
+          <strong class="me-auto mx-2"
+            > Winter offer 20 % OFF going On !</strong
+          >
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="toast"
+            aria-label="Close"
+          ></button>
+        </div>
+      </div>
+
+      <!-- our journey  -->
+      <section>
+        <div class="container py-4">
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class=" p-4 text-center journey">
+                <i class="fs-1 border border-3 p-3 text-white bg-danger rounded-pill fas fa-video"></i>
+                <h1 class="py-3">Total Event <br><span class="text-danger">500+</span></h1>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class=" p-4 text-center journey">
+                <i class="fs-1 border border-3 p-3 text-white bg-danger rounded-pill fas fa-people-arrows"></i>
+                <h1 class="py-3">Happy Client<br><span class="text-danger">450+</span></h1>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class=" p-4 text-center journey">
+                <i class="fs-1 border border-3 p-3 text-white bg-danger rounded-pill fas fa-clock"></i>
+                <h1 class="py-3">Total Time <br><span class="text-danger">50000+</span></h1>
+              </div>
+            </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- our packages  -->
+      <section class="packages">
+        <div class="container">
+          <div class="package-heading">
+            <h1 class=" text-center p-4 mb-4 fs-1">Our Packages</h1>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-3 col-sm-6 col-12">
+              <div class="border rounded p-4">
+                <h1>$300</h1>
+              <h1 class="display-6 text-danger">Business Fair</h1>
+              <p>For most businesses event 
+                like book fair, craft fair.</p>
+              <div class="mb-4">
+                <p><i class="me-3 fas fa-check-circle"></i> limited space access</p>
+              <p><i class="me-3 fas fa-check-circle"></i> Secuirty facility</p>
+              <p><i class="me-3 fas fa-check-circle"></i> event support</p>
+              <p><i class="me-3 fas fa-check-circle"></i> Decoration design</p>
+              <p><i class="me-3 fas fa-check-circle"></i> Per day bill</p>
+              </div>
+              <a href="https://github.com/ShakawathHossen"><button class="package-btn px-4 py-2 rounded-pill fw-bold text-uppercase border-0 text-light">Choose Plan</button></a></div>
+              </div>
+            <div class="col-md-3 col-sm-6 col-12">
+              <div class="border rounded p-4">
+                <h1>$500</h1>
+              <h1 class="display-6 text-danger">Wedding Basic</h1>
+              <p>For weddings with basic plan
+                and limited item</p>
+              <div class="mb-4">
+                <p><i class="me-3 fas fa-check-circle"></i> Full space access</p>
+              <p><i class="me-3 fas fa-check-circle"></i> Food arrangement</p>
+              <p><i class="me-3 fas fa-check-circle"></i> mangement support</p>
+              <p><i class="me-3 fas fa-check-circle"></i> Decoration design</p>
+              <p><i class="me-3 fas fa-check-circle"></i> Billed as shift</p>
+              </div>
+              <a href="https://github.com/ShakawathHossen"><button class="package-btn px-4 py-2 rounded-pill fw-bold text-uppercase border-0 text-light">Choose Plan</button></a></div>
+              </div>
+            <div class="col-md-3 col-12 col-sm-6">
+              <div class="position-relative special-package border rounded p-4 ">
+              <h1>$800</h1>
+              <h1 class="display-6 text-danger">Wedding Plus</h1>
+              <p>For most weddings with premium plans</p>
+              <div class="mb-4">
+              <p><i class="me-3 fas fa-check-circle"></i> Full space access</p>
+              <p><i class="me-3 fas fa-check-circle"></i> Dedicated team</p>
+              <p><i class="me-3 fas fa-check-circle"></i> Buffet food</p>
+              <p><i class="me-3 fas fa-check-circle"></i> premium Decoration</p>
+              <p><i class="me-3 fas fa-check-circle"></i> pay as plan</p>
+              </div>
+              <a href="https://github.com/ShakawathHossen"><button class="package-btn px-4 py-2 rounded-pill fw-bold text-uppercase border-0 text-light ">Choose Plan</button></a>
+              <span class="position-absolute fs-6 top-0 start-50 translate-middle badge rounded-pill py-2 px-3 bg-danger">Hot !</span>
+            </div>
+              </div>
+            <div class="col-md-3 col-12 col-sm-6">
+              <div class="border rounded p-4">
+                <h1>$1200</h1>
+              <h1 class="display-6 text-danger">Corporate Event</h1>
+              <p>For most of corporate business 
+                events</p>
+              <div class="mb-4">
+                <p><i class="me-3 fas fa-check-circle"></i> Full space access</p>
+              <p><i class="me-3 fas fa-check-circle"></i> Dedicated team</p>
+              <p><i class="me-3 fas fa-check-circle"></i> Buffet food</p>
+              <p><i class="me-3 fas fa-check-circle"></i> premium Decoration</p>
+              <p><i class="me-3 fas fa-check-circle"></i> pay as plan</p>
+              </div>
+              <a href="https://github.com/ShakawathHossen"><button class="package-btn px-4 py-2 rounded-pill fw-bold text-uppercase border-0 text-light">Choose Plan</button></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- our packages  -->
+      <!--extra section testimonial  -->
+      <section class="pb-4">
+        <h1 class="text-center py-4">Testimonial</h1>
+        <div class="container">
+          <div class="row g-4 p-4">
+            <div class="col-md-4">
+             <div class="border p-4 text-center test">
+               <img class=" border border-warning border-3 rounded-circle" src="images/person 1.png" alt="">
+               <p class="pt-4">Slate helps you see how 
+                many more days you need 
+                to work to reach your financial 
+                goal for the month and year.</p>
+                <span class="fw-bold text-dark-50">USA</span>
+                <div class="text-warning"> 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+             </div>
+              </div>
+            <div class="col-md-4">
+             <div class="border p-4 text-center test">
+               <img class=" border border-warning border-3 rounded-circle" src="images/person 2.png" alt="">
+               <p class="pt-4">Slate helps you see how 
+                many more days you need 
+                to work to reach your financial 
+                goal for the month and year.</p>
+                <span class="fw-bold text-dark-50">Pakistan</span>
+                <div class="text-warning"> 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+             </div>
+              </div>
+            <div class="col-md-4">
+             <div class="border p-4 text-center test">
+               <img class=" border border-warning border-3 rounded-circle" src="images/person 3.png" alt="">
+               <p class="pt-4">Slate helps you see how 
+                many more days you need 
+                to work to reach your financial 
+                goal for the month and year.</p>
+                <span class="fw-bold text-dark-50">UK</span>
+                <div class="text-warning"> 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+             </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- faq  -->
+      <section>
+        <h1 class="text-center py-4">Frequently Asked Questions</h1>
+        <div class="container">
+          <div class="row py-4 d-flex align-items-center">
+            <div class="col-md-7">
+
+              <div class="accordion accordion-flush " id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed fw-normal fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      What's the difference between event design and event planning? 
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed fw-normal fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      How early do we need to start planning an event
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed fw-normal fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      What is your refund and cancellation policy?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="d-flex justify-content-end"><img src="images/camera.png" alt=""></div>
+            </div>
+          </div>
+        </div>
+      </section>
+        
+    </main>
+    <footer class=" footer py-4">
+      <div class="container">
+        <div class="row py-4 d-flex align-items-center ">
+          <div class="col-md-6">
+            <div> 
+              <p class="fs-5 text-white">©Shakawath Hossen 2022 All rights reserved</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="d-flex flex-column  align-items-end align-items-sm-center ">
+              <h1 class="p-3 text-white">Get The APP</h1>
+              <div class="">
+                <a href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp"><img src="images/google-play.png" alt=""></a>
+                <a href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp"><img src="images/app-store.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+    <!-- Bootsrap js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

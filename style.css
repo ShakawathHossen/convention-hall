@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+.packages{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.navbar{
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 1px 2px 10px 0px #808080d9;
+}
+.navbar-brand, h1{
+    font-family: 'Lobster', cursive;
+  
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0);
+}
+.images{
+   height: 700px;
+   opacity: .8 ;
+   
+}
+.slider-heading{
+    font-family: 'Lobster', cursive;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 5px 3px #060303;
+}
+.slider-btn, .package-btn{
+    background-image:linear-gradient(120deg, rgb(255, 208, 0),rgb(168, 14, 14));
+
+}
+.slider-btn:hover ,.package-btn:hover{
+    background-image:linear-gradient(120deg,rgb(168, 14, 14), rgb(255, 208, 0) );
+}
+.journey{
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+.journey:hover{
+    background-color: #FFE9E9;
+}
+.special-package{
+   margin-top: -30px;
+    background: rgba(255, 179, 179, 0.287);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+    
+}
+.test{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.test:hover{
+    background-color: #FFE9E9;
+}
+.package-heading{
+    padding-bottom: 30px;
+}
+.footer{
+    background-color: #DC3545;
+}
+@media only screen and (max-width:576px) {
+    
+    .special-package{
+       margin-top: 0;
+    }
+    .packages{
+        margin-top:0px;
+        margin-bottom:40px;
+    }
+    .images{
+        height: 250px;
+        
+     }
+     .slider-heading{
+         font-size: 20px;
+     }
+     .slider-btn, .package-btn{
+         font-size: 10px;
+     }
+     .slider-details{
+         font-size: 15px;
+     }
+    
+}
+@media only screen and (max-width:991px) {
+    .navbar-nav {
+        align-items: center;
+    background: rgba(255, 255, 255, 0.397);
+    padding: 0;
+    margin: 0;
+    margin-top: 25px;
+    padding-bottom: 7px;
+}
+}
